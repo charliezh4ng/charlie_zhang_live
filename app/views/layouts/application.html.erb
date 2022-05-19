@@ -13,7 +13,13 @@
   </head>
 
   <body>
+    <!-- add sign out I'm logged in -->
+    <% if king_signed_in? %>
+      <%= button_to "Log out", destroy_king_session_path, method: :delete %>
+    <% end %>
     <main class="container mx-auto mt-28 px-5 flex">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
       <%= yield %>
     </main>
   </body>
