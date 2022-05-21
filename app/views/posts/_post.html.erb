@@ -1,10 +1,10 @@
-<div id="<%= dom_id post %>">
-  <p>
-    <strong>Title:</strong>
+<section id="<%= dom_id post %>" class="flex flex-col bg-indigo-500">
+  <p class="text-yellow">
+    <strong>Titlezz:</strong>
     <%= post.title %>
   </p>
 
-  <p>
+  <p class="text-red">
     Posted <%= time_tag post.created_at, "data-local": "time-ago" %>
   </p>
 
@@ -12,9 +12,9 @@
     <strong><%= pluralize post.comments.count, "comment" %></strong>
   </p>
 
-  <p>
-    <strong>Content:</strong>
+  <section class="flex flex-col">
+    <strong class="text-red-50">Content:</strong>
     <%= post.content %>
-  </p>
+  </section>
 
-</div>
+</section>
