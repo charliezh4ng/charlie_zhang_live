@@ -82,3 +82,4 @@ gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 # admin 
 gem 'devise'
 gem 'administrate'
+gem "hotwire-livereload", "~> 1.1", :group => :development
