@@ -51,11 +51,12 @@
             </div>
           </div>
         </div>
+      </section>
     <% end %>
-      
-    </section>
+    <%= render "shared/header" %>
     <main class="container mx-auto sm:px-6 lg:px-8 flex">
       <%= yield %>
     </main>
+    <%= render "shared/footer" %>
   </body>
 </html>
