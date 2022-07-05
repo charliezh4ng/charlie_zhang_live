@@ -65,7 +65,8 @@ class PostsController < ApplicationController
     end
 
     # Only allow a list of trusted parameters through.
+    # https://github.com/pat/gutentag/wiki/Examples#adding-to-a-form-view
     def post_params
-      params.require(:post).permit(:title, :content)
+      params.require(:post).permit(:title, :content, :tags_as_string)
     end
 end
