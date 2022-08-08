@@ -4,7 +4,11 @@ This is my blog, hosted at [charliezhang.dev](https://charliezhang.dev).
 
 # ROADMAP
 
-Analytics
+1. Analytics - setup https://github.com/ankane/ahoy, https://gorails.com/episodes/internal-metrics-with-ahoy-and-blazer
+1. Code section highlighting - https://www.driftingruby.com/episodes/syntax-highlighting-with-action-text
+1. Fix up the devise sign ins with tailwind
+
+Then it's making the UI way, way better.
 
 # NOTES
 
@@ -12,7 +16,7 @@ Analytics
 
 `~/charlie-zhang-live/current/log/production.log`
 
-# TEMPLATE READM
+# TEMPLATE README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
