@@ -87,3 +87,9 @@ gem "hotwire-livereload", "~> 1.1", :group => :development
 
 # for blog post tags
 gem "gutentag", "~> 2.6"
+
+# for analytics
+gem "ahoy_matey" # visits and custom events
+gem "blazer"     # dashboards
+gem "chartkick"
+gem "groupdate"
