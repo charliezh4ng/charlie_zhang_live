@@ -84,3 +84,6 @@ gem 'devise'
 # https://github.com/thoughtbot/administrate/issues/2091
 gem "administrate", github: "n-studio/administrate", branch: "compile-assets"
 gem "hotwire-livereload", "~> 1.1", :group => :development
+
+# for blog post tags
+gem "gutentag", "~> 2.6"
